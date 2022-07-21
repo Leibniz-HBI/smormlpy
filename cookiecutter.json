@@ -1,0 +1,7 @@
+{
+    "project_slug": "another_smopytool",
+    "project_description": "A cookiecutter template for SMO/MRML python tools",
+    "project_author_name": "Philipp Kessling",
+    "project_author_mail":"p.kessling@leibniz-hbi.de",
+    "project_license": ["MIT"]
+}
