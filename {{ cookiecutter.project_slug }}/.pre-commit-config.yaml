@@ -14,22 +14,22 @@ repos:
     hooks:
     -   id: system
         name: Black
-        entry: poetry run black .
-        pass_filenames: false
+        entry: poetry run black
+        types: ['python']
         language: system
 # sort imports with isort
 -   repo: local
     hooks:
     -   id: system
         name: isort
-        entry: poetry run isort .
-        pass_filenames: false
+        entry: poetry run isort
+        types: ['python']
         language: system
 # run pylint against code base
 -   repo: local
     hooks:
     -   id: system
         name: Pylint
-        entry: poetry run pylint -j 0 heftig/
-        pass_filenames: false
+        entry: poetry run pylint -j 0
+        types: ['python']
         language: system
