@@ -25,5 +25,11 @@ pylint = "^2.14.5"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+addopts = "--cov-report html:tests/coverage --cov=ponyexpress --capture=sys"
+
+[tool.isort]
+profile = "black"
+
 [tool.poetry.scripts]
 {{ cookiecutter.project_slug }} = '{{ cookiecutter.project_slug }}.main:cli'
