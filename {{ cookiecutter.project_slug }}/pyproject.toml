@@ -6,7 +6,7 @@ authors = ["{{ cookiecutter.project_author_name }}"]
 license = "{{ cookiecutter.project_license }}"
 
 [tool.poetry.dependencies]
-python = ">3.8,<4"
+python = "^3.8"
 click = "*"
 loguru = "*"
 PyYAML = "*"
