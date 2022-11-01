@@ -26,7 +26,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
-addopts = "--cov-report html:tests/coverage --cov=ponyexpress --capture=sys"
+addopts = "--cov-report html:tests/coverage --cov={{ cookiecutter.project_slug }} --capture=sys --html=tests/report.html --self-contained-html"
 
 [tool.isort]
 profile = "black"
