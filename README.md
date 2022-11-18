@@ -19,9 +19,11 @@ To generate HTML/PDF documentation via pdoc3 run either of the following in your
 1. Install `poetry` if you don't have it: `pip install poetry`.
 2. Clone this repo, go into the repo's folder.
 3. Install the dependencies with `poetry install` and spawn a shell in your new virtual environment with `poetry shell`.
-3. Generate your new project: `cookiecutter smormlpy/`. This will ask you a couple of questions about your new project, finally a new folder named after your new project will be created.   
-4. Create a Git-repository in your newly created project folder.
-5. Done, over and out.
+4. Use `cd ..` to navigate to the parent directory.
+5. Generate your new project: `cookiecutter smormlpy`. This will ask you a couple of questions about your new project, finally a new folder named after your new project will be created.   
+6. Leave the virtual environment of this repo using `deactivate`
+7. Create a Git-repository in your newly created project folder.
+8. Done, over and out.
 
 ---
 
