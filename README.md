@@ -27,4 +27,4 @@ To generate HTML/PDF documentation via pdoc3 run either of the following in your
 
 ---
 
-[Philipp Kessling](mailto:p.kessling@leibniz-hbi.de) under the MIT license.
+2023, [The Social Media Observatory Team](mailto:smo@leibniz-hbi.de) under the MIT license.
