@@ -16,4 +16,4 @@ def test_version_type():
 
 def test_version_number_is_semver():
     """Should be a semver."""
-    assert re.match(r"\d+\.\d+\.\d+-{0,1}\w*", __version__) is not None
+    assert re.fullmatch(r"\d+\.\d+\.\d+(-\w+)?", __version__) is not None
